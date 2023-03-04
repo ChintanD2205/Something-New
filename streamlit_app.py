@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 # Read the dataset
-profiles = pd.read_csv("profiles.csv")
+profiles = pd.read_csv("users.csv")
 
 # Define the scoring function
 def score_profile(profile):
